@@ -31,9 +31,9 @@
         &:hover {
           color: mix(black, $val, $i * 10);
         }
-        .bg-#{$key}-dark-#{$i} {
-          background-color: mix(black, $val, $i * 10);
-        }
+      }
+      .bg-#{$key}-dark-#{$i} {
+        background-color: mix(black, $val, $i * 10);
       }
     }
   }
